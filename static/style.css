@@ -27,13 +27,36 @@ form input
     border-radius: 10px;
 }
 
-button
-{
+
+table, th{
+    margin-top: 10px;
+    border: 2px solid black;
+
+}
+
+a{
+    text-decoration: none;
+    color: rgb(239, 240, 243);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.botonenviar{
     padding: 10px;
     background-color: greenyellow;
     margin-top: 15px;
     border: none;
     border-radius: 20px;
     color: blue;
+    cursor: pointer;
+}
+
+.botonborrar{
+    padding: 10px;
+    text-decoration: none;
+    background-color: rgb(120, 131, 151);
+    border: none;
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
     cursor: pointer;
 }
