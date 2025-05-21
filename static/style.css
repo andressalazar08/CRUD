@@ -35,8 +35,9 @@ table, th{
 }
 
 a{
+        font-size: smaller;
     text-decoration: none;
-    color: rgb(239, 240, 243);
+    color: rgb(46, 77, 171);
     font-weight: bold;
     cursor: pointer;
 }

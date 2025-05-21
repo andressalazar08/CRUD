@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"href="{{url_for('static',filename='style.css')}}">
+    <title>Actualizar</title>
+</head>
+<body>
+    <div class="section">
+        <form method="post">
+            <h3>Formulario para actualizar</h3>
+            <input type="number" name="id" value="{{estudiante_a_editar.id}}" readonly> 
+            <input type="text" name="nombre" value="{{estudiante_a_editar.nombre_usuario}}" id="" required>
+            <input type="email" name="correo"  value="{{estudiante_a_editar.correo_usuario}}" id="" required>
+            <button class="botonenviar" type="submit">Actualizar usuario</button>
+        </form>
+        <a href="/">regresar al home</a>
+    </div>
+
+</body>
+</html>
